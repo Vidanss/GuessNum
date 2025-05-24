@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_juego"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/lblIngreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mensaje_ingresa_numero"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Timer movido aquí, debajo de lblIngreso y antes del edtNumero -->
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF4081"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="#333333"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:hint="@string/mensaje_ingresa_numero"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnIntentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intentar"
+        android:backgroundTint="#3C3C3C"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

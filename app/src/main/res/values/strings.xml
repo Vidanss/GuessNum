@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Adivina el Número</string>
+    <string name="titulo_juego">Juego: Adivina el Número</string>
+    <string name="mensaje_ingresa_numero">Ingresa un número entre 0 y 100</string>
+    <string name="boton_intentar">Intentar</string>
+</resources>
